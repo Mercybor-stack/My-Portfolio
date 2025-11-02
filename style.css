@@ -1,0 +1,80 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+  color: white;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #000;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: pink !important;
+  font-weight: 600;
+}
+
+.navbar-nav .nav-link:hover {
+  color: white !important;
+}
+
+#home {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  color: pink;
+}
+
+.text-pink {
+  color: pink;
+}
+
+.card {
+  background-color: #222;
+  border: 1px solid pink;
+  color: white;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+}
+
+#contactForm input,
+#contactForm textarea {
+  border-radius: 8px;
+  border: 1px solid pink;
+  background-color: #111;
+  color: white;
+}
+
+#contactForm input::placeholder,
+#contactForm textarea::placeholder {
+  color: #aaa;
+}
+
+.contact-link {
+  color: pink;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  color: white;
+}
+
+footer {
+  background-color: #000;
+  color: pink;
+  font-size: 0.9rem;
+}
